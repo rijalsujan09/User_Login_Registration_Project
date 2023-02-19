@@ -4103,3 +4103,1124 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as express
 2023-02-19T10:57:02.143-05:00  INFO 2968 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-02-19T10:57:02.143-05:00  INFO 2968 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2023-02-19T10:57:02.148-05:00  INFO 2968 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-19T11:20:51.253-05:00  INFO 3603 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 3603 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:20:51.255-05:00  INFO 3603 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:20:51.272-05:00  INFO 3603 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-19T11:20:51.272-05:00  INFO 3603 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-19T11:20:51.449-05:00  WARN 3603 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [com.projectsujan.rijal.configuration.SecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]] for bean 'delegatingApplicationListener' since there is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2023-02-19T11:20:51.453-05:00  INFO 3603 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T11:20:51.462-05:00 ERROR 3603 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-02-19T11:21:47.596-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 3625 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:21:47.597-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:21:47.614-05:00  INFO 3625 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-19T11:21:47.614-05:00  INFO 3625 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-19T11:21:47.839-05:00  INFO 3625 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:21:47.858-05:00  INFO 3625 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:21:48.058-05:00  INFO 3625 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:21:48.062-05:00  INFO 3625 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:21:48.063-05:00  INFO 3625 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:21:48.084-05:00  INFO 3625 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:21:48.084-05:00  INFO 3625 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2023-02-19T11:21:48.148-05:00  INFO 3625 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:21:48.172-05:00  INFO 3625 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-19T11:21:48.228-05:00  WARN 3625 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:21:48.266-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19T11:21:48.407-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@302824da
+2023-02-19T11:21:48.408-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19T11:21:48.436-05:00  INFO 3625 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:21:48.642-05:00  INFO 3625 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:21:48.656-05:00  INFO 3625 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:21:48.730-05:00  INFO 3625 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:21:48.733-05:00  INFO 3625 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:21:48.822-05:00  WARN 3625 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:21:48.978-05:00  INFO 3625 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4646ad6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ee8526, org.springframework.security.web.context.SecurityContextHolderFilter@1f17a151, org.springframework.security.web.header.HeaderWriterFilter@7e214550, org.springframework.security.web.csrf.CsrfFilter@1b55183a, org.springframework.security.web.authentication.logout.LogoutFilter@6f60659d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@762a520c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b760b94, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69615bea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2456190d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c9c97c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d44ca07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48435381, org.springframework.security.web.access.ExceptionTranslationFilter@73363b81, org.springframework.security.web.access.intercept.AuthorizationFilter@4a465566]
+2023-02-19T11:21:48.992-05:00  INFO 3625 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T11:21:49.009-05:00  INFO 3625 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T11:21:49.013-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 1.563 seconds (process running for 1.828)
+2023-02-19T11:22:02.140-05:00  INFO 3625 --- [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-19T11:22:02.140-05:00  INFO 3625 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-19T11:22:02.142-05:00  INFO 3625 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-19T11:52:37.444-05:00  WARN 3625 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m18s36ms).
+2023-02-19T11:53:22.256-05:00  INFO 3625 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-19T11:53:22.275-05:00  INFO 3625 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T11:53:22.277-05:00  INFO 3625 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-19T11:53:22.292-05:00  INFO 3625 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:22.295-05:00  INFO 3625 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19T11:53:22.302-05:00  INFO 3625 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19T11:53:22.359-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 3625 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:53:22.359-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:53:22.431-05:00  INFO 3625 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:53:22.435-05:00  INFO 3625 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:53:22.481-05:00  INFO 3625 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:53:22.482-05:00  INFO 3625 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:53:22.482-05:00  INFO 3625 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:53:22.486-05:00  INFO 3625 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:53:22.486-05:00  INFO 3625 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2023-02-19T11:53:22.505-05:00  INFO 3625 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:53:22.507-05:00  WARN 3625 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:53:22.509-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-19T11:53:22.530-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@323b1490
+2023-02-19T11:53:22.530-05:00  INFO 3625 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-19T11:53:22.531-05:00  INFO 3625 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:53:22.543-05:00  INFO 3625 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:53:22.546-05:00  INFO 3625 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:53:22.576-05:00  INFO 3625 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:53:22.576-05:00  INFO 3625 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:22.605-05:00  WARN 3625 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:53:22.661-05:00  WARN 3625 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fac2aa51-486a-4e15-97e1-ed9373e3e848
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-19T11:53:22.669-05:00  INFO 3625 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@595643eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8ddf4d2, org.springframework.security.web.context.SecurityContextHolderFilter@39f71007, org.springframework.security.web.header.HeaderWriterFilter@8656e00, org.springframework.security.web.csrf.CsrfFilter@336c332f, org.springframework.security.web.authentication.logout.LogoutFilter@61224449, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e54ae0a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fe3dc14, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13622f3d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63ebcbbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bd0b95d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cd5bce0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e69b0d4, org.springframework.security.web.access.ExceptionTranslationFilter@3d21527d, org.springframework.security.web.access.intercept.AuthorizationFilter@3faddee5]
+2023-02-19T11:53:22.675-05:00  INFO 3625 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T11:53:22.681-05:00  INFO 3625 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T11:53:22.683-05:00  INFO 3625 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.337 seconds (process running for 1726.863)
+2023-02-19T11:53:22.684-05:00  INFO 3625 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T11:53:37.686-05:00  INFO 4054 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4054 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:53:37.688-05:00  INFO 4054 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:53:37.705-05:00  INFO 4054 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-19T11:53:37.705-05:00  INFO 4054 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-19T11:53:37.926-05:00  INFO 4054 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:53:37.945-05:00  INFO 4054 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:53:38.147-05:00  INFO 4054 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:53:38.151-05:00  INFO 4054 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:53:38.151-05:00  INFO 4054 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:53:38.171-05:00  INFO 4054 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:53:38.172-05:00  INFO 4054 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 466 ms
+2023-02-19T11:53:38.226-05:00  INFO 4054 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:53:38.247-05:00  INFO 4054 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-19T11:53:38.304-05:00  WARN 4054 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:53:38.342-05:00  INFO 4054 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19T11:53:38.482-05:00  INFO 4054 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5524e03f
+2023-02-19T11:53:38.483-05:00  INFO 4054 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19T11:53:38.512-05:00  INFO 4054 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:53:38.713-05:00  INFO 4054 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:53:38.725-05:00  INFO 4054 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:53:38.800-05:00  INFO 4054 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:53:38.804-05:00  INFO 4054 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:38.894-05:00  WARN 4054 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:53:39.023-05:00  WARN 4054 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 61c3f054-0fc1-4aa4-8852-76fea5e9110c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-19T11:53:39.060-05:00  INFO 4054 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72f904e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@479cd069, org.springframework.security.web.context.SecurityContextHolderFilter@788b977b, org.springframework.security.web.header.HeaderWriterFilter@3fd87c6c, org.springframework.security.web.csrf.CsrfFilter@6f6c38ad, org.springframework.security.web.authentication.logout.LogoutFilter@3b093c52, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30a1a405, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@75ead050, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@245475b6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@386cad8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c78a99, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@268310e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@686c51fc, org.springframework.security.web.access.ExceptionTranslationFilter@7cb45581, org.springframework.security.web.access.intercept.AuthorizationFilter@22b2c0e9]
+2023-02-19T11:53:39.074-05:00  WARN 4054 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-02-19T11:53:39.084-05:00  WARN 4054 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-19T11:53:39.085-05:00  INFO 4054 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:39.086-05:00  INFO 4054 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19T11:53:39.089-05:00  INFO 4054 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19T11:53:39.090-05:00  INFO 4054 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T11:53:39.096-05:00  INFO 4054 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T11:53:39.104-05:00 ERROR 4054 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+2023-02-19T11:53:41.652-05:00  INFO 3625 --- [RMI TCP Connection(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-19T11:53:41.654-05:00  INFO 3625 --- [RMI TCP Connection(40)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T11:53:41.656-05:00  INFO 3625 --- [RMI TCP Connection(40)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:41.656-05:00  INFO 3625 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-19T11:53:41.658-05:00  INFO 3625 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-19T11:53:42.564-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:53:42.565-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:53:42.580-05:00  INFO 4056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-19T11:53:42.580-05:00  INFO 4056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-19T11:53:42.774-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:53:42.791-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:53:42.975-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:53:42.979-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:53:42.979-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:53:42.997-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:53:42.997-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 416 ms
+2023-02-19T11:53:43.054-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:53:43.071-05:00  INFO 4056 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-19T11:53:43.115-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:53:43.146-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19T11:53:43.271-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19dbfb9c
+2023-02-19T11:53:43.272-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19T11:53:43.296-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:53:43.477-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:53:43.491-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:53:43.564-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:53:43.567-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:53:43.651-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:53:43.769-05:00  WARN 4056 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1882c4b2-f31f-4936-bf32-0ae64ef1031c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-19T11:53:43.802-05:00  INFO 4056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@679977db, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17a23f3d, org.springframework.security.web.context.SecurityContextHolderFilter@378e671e, org.springframework.security.web.header.HeaderWriterFilter@284945bf, org.springframework.security.web.csrf.CsrfFilter@1047d373, org.springframework.security.web.authentication.logout.LogoutFilter@5bc6962, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@db2bfe7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47a4a7c8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7688ec6e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a334f0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@87c7ae4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38dd0119, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63da158e, org.springframework.security.web.access.ExceptionTranslationFilter@23dd2d6, org.springframework.security.web.access.intercept.AuthorizationFilter@7a344e0b]
+2023-02-19T11:53:43.814-05:00  INFO 4056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T11:53:43.829-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T11:53:43.834-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 1.399 seconds (process running for 1.645)
+2023-02-19T11:55:05.053-05:00  INFO 4056 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-02-19T11:55:05.068-05:00  INFO 4056 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T11:55:05.079-05:00  INFO 4056 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:55:05.082-05:00  INFO 4056 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19T11:55:05.087-05:00  INFO 4056 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19T11:55:05.125-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:55:05.125-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:55:05.182-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:55:05.186-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:55:05.226-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:55:05.226-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:55:05.226-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:55:05.230-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:55:05.231-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2023-02-19T11:55:05.247-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:55:05.248-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:55:05.250-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-19T11:55:05.268-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57b986db
+2023-02-19T11:55:05.268-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-19T11:55:05.269-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:55:05.280-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:55:05.283-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:55:05.311-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:55:05.312-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:55:05.339-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:55:05.381-05:00  WARN 4056 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0a600a58-fbdd-4c25-823d-3fef722a3876
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-19T11:55:05.389-05:00  INFO 4056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35afea42, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d1a22fa, org.springframework.security.web.context.SecurityContextHolderFilter@57f1463f, org.springframework.security.web.header.HeaderWriterFilter@4f81f780, org.springframework.security.web.csrf.CsrfFilter@47a6391f, org.springframework.security.web.authentication.logout.LogoutFilter@6431e8a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27a947ac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@35c191ac, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40e394d2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3900ba9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21e9e31f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75bc456c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c0b1a01, org.springframework.security.web.access.ExceptionTranslationFilter@6da4b6d, org.springframework.security.web.access.intercept.AuthorizationFilter@2836136e]
+2023-02-19T11:55:05.392-05:00  INFO 4056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T11:55:05.398-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T11:55:05.400-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.286 seconds (process running for 83.211)
+2023-02-19T11:55:05.401-05:00  INFO 4056 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T11:57:53.566-05:00  INFO 4056 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2023-02-19T11:57:53.579-05:00  INFO 4056 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T11:57:53.587-05:00  INFO 4056 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:57:53.589-05:00  INFO 4056 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-19T11:57:53.595-05:00  INFO 4056 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-19T11:57:53.653-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T11:57:53.653-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T11:57:53.702-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T11:57:53.704-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T11:57:53.739-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T11:57:53.740-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T11:57:53.740-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T11:57:53.744-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T11:57:53.744-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 90 ms
+2023-02-19T11:57:53.759-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T11:57:53.760-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T11:57:53.762-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-19T11:57:53.775-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a103d4c
+2023-02-19T11:57:53.775-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-19T11:57:53.776-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T11:57:53.786-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T11:57:53.789-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T11:57:53.808-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T11:57:53.808-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T11:57:53.833-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T11:57:53.872-05:00  WARN 4056 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0874ed81-b030-47b9-b5c6-6bf9a2c507e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-02-19T11:57:53.880-05:00  INFO 4056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15a9a636, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bf68ec4, org.springframework.security.web.context.SecurityContextHolderFilter@255cc42e, org.springframework.security.web.header.HeaderWriterFilter@37063353, org.springframework.security.web.csrf.CsrfFilter@b7c1d1, org.springframework.security.web.authentication.logout.LogoutFilter@7f5480e8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79660347, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e7352c0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2c3d0c6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@22ee9f43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b5b301d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78696a35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5401535a, org.springframework.security.web.access.ExceptionTranslationFilter@59d740db, org.springframework.security.web.access.intercept.AuthorizationFilter@28decbec]
+2023-02-19T11:57:53.883-05:00  INFO 4056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T11:57:53.888-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T11:57:53.890-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.246 seconds (process running for 251.702)
+2023-02-19T11:57:53.891-05:00  INFO 4056 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T12:11:18.630-05:00  INFO 4056 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-19T12:11:18.639-05:00  INFO 4056 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:11:18.645-05:00  INFO 4056 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:11:18.646-05:00  INFO 4056 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-19T12:11:18.651-05:00  INFO 4056 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-19T12:11:18.711-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:11:18.712-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:11:18.769-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:11:18.772-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:11:18.847-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:11:18.847-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:11:18.847-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:11:18.851-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:11:18.851-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 139 ms
+2023-02-19T12:11:18.882-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:11:18.883-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:11:18.885-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-19T12:11:18.900-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c11f51f
+2023-02-19T12:11:18.900-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-19T12:11:18.900-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:11:18.910-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:11:18.913-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:11:18.944-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:11:18.944-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:11:18.988-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:11:18.997-05:00  WARN 4056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'getUsers' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+2023-02-19T12:11:18.998-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:11:18.998-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-02-19T12:11:18.998-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-02-19T12:11:18.998-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:11:19.001-05:00  INFO 4056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T12:11:19.009-05:00 ERROR 4056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'getUsers' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.projectsujan.rijal.SpringBootUserLoginRegistrationProjectApplication.main(SpringBootUserLoginRegistrationProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'getUsers' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'getUsers' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getUsers' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1136) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.getBeanOrNull(InitializeUserDetailsBeanManagerConfigurer.java:89) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:62) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:55) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:349) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:303) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.core.userdetails.UserDetailsService]: Factory method 'getUsers' threw exception with message: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 61 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	UserDetailsServiceImpl cannot be resolved to a type
+
+	at com.projectsujan.rijal.configuration.SecurityConfiguration.getUsers(SecurityConfiguration.java:51) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.CGLIB$getUsers$2(<generated>) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.4.jar:6.0.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.4.jar:6.0.4]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.getUsers(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 62 common frames omitted
+
+2023-02-19T12:21:45.910-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:21:45.911-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:21:45.973-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:21:45.977-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:21:46.036-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:21:46.036-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:21:46.037-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:21:46.041-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:21:46.041-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2023-02-19T12:21:46.081-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:21:46.083-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:21:46.085-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-02-19T12:21:46.101-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5959c1ed
+2023-02-19T12:21:46.101-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-02-19T12:21:46.102-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:21:46.115-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:21:46.117-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:21:46.147-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:21:46.147-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:21:46.198-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:21:46.207-05:00  WARN 4056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+2023-02-19T12:21:46.207-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:21:46.207-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-02-19T12:21:46.229-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-02-19T12:21:46.230-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:21:46.232-05:00  INFO 4056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T12:21:46.233-05:00 ERROR 4056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.projectsujan.rijal.SpringBootUserLoginRegistrationProjectApplication.main(SpringBootUserLoginRegistrationProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1136) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.getBeanOrNull(InitializeAuthenticationProviderBeanManagerConfigurer.java:74) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:57) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:50) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:349) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:303) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 61 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at com.projectsujan.rijal.configuration.SecurityConfiguration.authenticationProvider(SecurityConfiguration.java:64) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.CGLIB$authenticationProvider$2(<generated>) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.4.jar:6.0.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.4.jar:6.0.4]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.authenticationProvider(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 62 common frames omitted
+
+2023-02-19T12:22:27.065-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:22:27.066-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:22:27.131-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:22:27.133-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:22:27.182-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:22:27.182-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:22:27.182-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:22:27.186-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:22:27.186-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-02-19T12:22:27.211-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:22:27.212-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:22:27.213-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-02-19T12:22:27.226-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65113d5c
+2023-02-19T12:22:27.226-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-02-19T12:22:27.227-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:22:27.234-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:22:27.236-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:22:27.256-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:22:27.257-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:27.295-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:22:27.303-05:00  WARN 4056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+2023-02-19T12:22:27.303-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:27.303-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-02-19T12:22:27.304-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-02-19T12:22:27.304-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:22:27.306-05:00  INFO 4056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T12:22:27.307-05:00 ERROR 4056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.projectsujan.rijal.SpringBootUserLoginRegistrationProjectApplication.main(SpringBootUserLoginRegistrationProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1136) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.getBeanOrNull(InitializeAuthenticationProviderBeanManagerConfigurer.java:74) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:57) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:50) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:349) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:303) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 61 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at com.projectsujan.rijal.configuration.SecurityConfiguration.authenticationProvider(SecurityConfiguration.java:64) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.CGLIB$authenticationProvider$2(<generated>) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.4.jar:6.0.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.4.jar:6.0.4]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.authenticationProvider(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 62 common frames omitted
+
+2023-02-19T12:22:31.779-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:22:31.779-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:22:31.837-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:22:31.839-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:22:31.887-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:22:31.887-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:22:31.887-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:22:31.890-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:22:31.891-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2023-02-19T12:22:31.915-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:22:31.916-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:22:31.918-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-02-19T12:22:31.929-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7106fa46
+2023-02-19T12:22:31.929-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-02-19T12:22:31.929-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:22:31.937-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:22:31.939-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:22:31.957-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:22:31.957-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:31.999-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:22:32.007-05:00  WARN 4056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+2023-02-19T12:22:32.007-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:32.007-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-02-19T12:22:32.007-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-02-19T12:22:32.008-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:22:32.010-05:00  INFO 4056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T12:22:32.010-05:00 ERROR 4056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.projectsujan.rijal.SpringBootUserLoginRegistrationProjectApplication.main(SpringBootUserLoginRegistrationProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1136) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.getBeanOrNull(InitializeAuthenticationProviderBeanManagerConfigurer.java:74) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:57) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:50) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:349) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:303) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 61 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at com.projectsujan.rijal.configuration.SecurityConfiguration.authenticationProvider(SecurityConfiguration.java:64) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.CGLIB$authenticationProvider$2(<generated>) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.4.jar:6.0.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.4.jar:6.0.4]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.authenticationProvider(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 62 common frames omitted
+
+2023-02-19T12:22:47.593-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:22:47.594-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:22:47.656-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:22:47.658-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:22:47.706-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:22:47.706-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:22:47.706-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:22:47.709-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:22:47.709-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2023-02-19T12:22:47.733-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:22:47.735-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:22:47.736-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-02-19T12:22:47.746-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46f723c8
+2023-02-19T12:22:47.746-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-02-19T12:22:47.747-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:22:47.754-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:22:47.756-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:22:47.774-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:22:47.774-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:47.813-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:22:47.820-05:00  WARN 4056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+2023-02-19T12:22:47.821-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:22:47.821-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-02-19T12:22:47.821-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-02-19T12:22:47.821-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:22:47.823-05:00  INFO 4056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-19T12:22:47.824-05:00 ERROR 4056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.projectsujan.rijal.SpringBootUserLoginRegistrationProjectApplication.main(SpringBootUserLoginRegistrationProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/projectsujan/rijal/configuration/SecurityConfiguration.class]: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1136) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.getBeanOrNull(InitializeAuthenticationProviderBeanManagerConfigurer.java:74) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:57) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:50) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:349) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:303) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108) ~[spring-security-config-6.0.1.jar:6.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.dao.DaoAuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 61 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method setUserDetailsService(UserDetailsService) in the type DaoAuthenticationProvider is not applicable for the arguments (UserService)
+
+	at com.projectsujan.rijal.configuration.SecurityConfiguration.authenticationProvider(SecurityConfiguration.java:64) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.CGLIB$authenticationProvider$2(<generated>) ~[classes/:na]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$2.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.0.4.jar:6.0.4]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.0.4.jar:6.0.4]
+	at com.projectsujan.rijal.configuration.SecurityConfiguration$$SpringCGLIB$$0.authenticationProvider(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 62 common frames omitted
+
+2023-02-19T12:23:24.601-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4056 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:23:24.601-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:23:24.660-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:23:24.663-05:00  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:23:24.715-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:23:24.715-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:23:24.715-05:00  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:23:24.719-05:00  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:23:24.719-05:00  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2023-02-19T12:23:24.744-05:00  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:23:24.746-05:00  WARN 4056 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:23:24.747-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-02-19T12:23:24.760-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60b5a2f4
+2023-02-19T12:23:24.760-05:00  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-02-19T12:23:24.760-05:00  INFO 4056 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:23:24.769-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:23:24.771-05:00  INFO 4056 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:23:24.790-05:00  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:23:24.790-05:00  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:23:24.831-05:00  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:23:24.915-05:00  INFO 4056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12f3c4dc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3db931d5, org.springframework.security.web.context.SecurityContextHolderFilter@397d61bf, org.springframework.security.web.header.HeaderWriterFilter@c583e69, org.springframework.security.web.csrf.CsrfFilter@596a10d2, org.springframework.security.web.authentication.logout.LogoutFilter@2d89f43d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@339f61b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30180ac2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42f396d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@219d86c8, org.springframework.security.web.access.ExceptionTranslationFilter@7b013304, org.springframework.security.web.access.intercept.AuthorizationFilter@54790832]
+2023-02-19T12:23:24.985-05:00  INFO 4056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T12:23:24.992-05:00  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T12:23:24.994-05:00  INFO 4056 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.407 seconds (process running for 1782.807)
+2023-02-19T12:23:24.996-05:00  INFO 4056 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' cofigureFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userServiceImpl and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-02-19T12:23:47.502-05:00  INFO 4056 --- [RMI TCP Connection(47)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-19T12:23:47.504-05:00  INFO 4056 --- [RMI TCP Connection(47)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:23:47.505-05:00  INFO 4056 --- [RMI TCP Connection(47)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:23:47.506-05:00  INFO 4056 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-02-19T12:23:47.507-05:00  INFO 4056 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-02-19T12:23:48.439-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4239 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:23:48.440-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:23:48.458-05:00  INFO 4239 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-19T12:23:48.458-05:00  INFO 4239 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-19T12:23:48.679-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:23:48.698-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:23:48.923-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:23:48.926-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:23:48.926-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:23:48.945-05:00  INFO 4239 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:23:48.945-05:00  INFO 4239 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 486 ms
+2023-02-19T12:23:49.013-05:00  INFO 4239 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:23:49.029-05:00  INFO 4239 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-19T12:23:49.081-05:00  WARN 4239 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:23:49.151-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-19T12:23:49.282-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@547deb65
+2023-02-19T12:23:49.283-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-19T12:23:49.312-05:00  INFO 4239 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:23:49.505-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:23:49.518-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:23:49.591-05:00  INFO 4239 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:23:49.598-05:00  INFO 4239 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:23:49.724-05:00  WARN 4239 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:23:49.865-05:00  INFO 4239 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33b44537, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17d794d1, org.springframework.security.web.context.SecurityContextHolderFilter@1e8e1321, org.springframework.security.web.header.HeaderWriterFilter@3a8e97ae, org.springframework.security.web.csrf.CsrfFilter@66517056, org.springframework.security.web.authentication.logout.LogoutFilter@3b784465, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77d1c9ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@644872af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46b1e73f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6eb08158, org.springframework.security.web.access.ExceptionTranslationFilter@216d0ffd, org.springframework.security.web.access.intercept.AuthorizationFilter@1c470010]
+2023-02-19T12:23:49.981-05:00  INFO 4239 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T12:23:49.996-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T12:23:50.001-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 1.701 seconds (process running for 1.964)
+2023-02-19T12:30:06.225-05:00  INFO 4239 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-19T12:30:06.243-05:00  INFO 4239 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:30:06.251-05:00  INFO 4239 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:30:06.254-05:00  INFO 4239 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-19T12:30:06.265-05:00  INFO 4239 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-19T12:30:06.307-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4239 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:30:06.308-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:30:06.368-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:30:06.371-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:30:06.436-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:30:06.436-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:30:06.436-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:30:06.444-05:00  INFO 4239 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:30:06.444-05:00  INFO 4239 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2023-02-19T12:30:06.472-05:00  INFO 4239 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:30:06.473-05:00  WARN 4239 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:30:06.475-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-19T12:30:06.492-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@87497d1
+2023-02-19T12:30:06.493-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-19T12:30:06.493-05:00  INFO 4239 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:30:06.505-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:30:06.508-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:30:06.531-05:00  INFO 4239 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:30:06.531-05:00  INFO 4239 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:30:06.576-05:00  WARN 4239 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:30:06.660-05:00  INFO 4239 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c2b0778, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@267259c, org.springframework.security.web.context.SecurityContextHolderFilter@6773eb86, org.springframework.security.web.header.HeaderWriterFilter@663481e6, org.springframework.security.web.csrf.CsrfFilter@50337a47, org.springframework.security.web.authentication.logout.LogoutFilter@7a3d7d79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e39ed97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c59546d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@260fdee9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16bdfb03, org.springframework.security.web.access.ExceptionTranslationFilter@3f46b35c, org.springframework.security.web.access.intercept.AuthorizationFilter@748c1853]
+2023-02-19T12:30:06.726-05:00  INFO 4239 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T12:30:06.733-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T12:30:06.735-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.439 seconds (process running for 378.695)
+2023-02-19T12:30:06.736-05:00  INFO 4239 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T12:30:22.279-05:00  INFO 4239 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-02-19T12:30:22.283-05:00  INFO 4239 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:30:22.287-05:00  INFO 4239 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:30:22.288-05:00  INFO 4239 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-19T12:30:22.290-05:00  INFO 4239 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-19T12:30:22.323-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4239 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:30:22.324-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:30:22.376-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:30:22.379-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:30:22.431-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:30:22.431-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:30:22.431-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:30:22.435-05:00  INFO 4239 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:30:22.435-05:00  INFO 4239 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2023-02-19T12:30:22.460-05:00  INFO 4239 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:30:22.461-05:00  WARN 4239 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:30:22.462-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-19T12:30:22.473-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77fe95a0
+2023-02-19T12:30:22.473-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-19T12:30:22.474-05:00  INFO 4239 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:30:22.483-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:30:22.485-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:30:22.502-05:00  INFO 4239 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:30:22.502-05:00  INFO 4239 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:30:22.570-05:00  WARN 4239 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:30:22.649-05:00  INFO 4239 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c48732, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66a56abb, org.springframework.security.web.context.SecurityContextHolderFilter@16a0063c, org.springframework.security.web.header.HeaderWriterFilter@72d4e35a, org.springframework.security.web.csrf.CsrfFilter@60414b1, org.springframework.security.web.authentication.logout.LogoutFilter@6fd0f351, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ce6bb84, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30a739c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c4c6341, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d45cc3, org.springframework.security.web.access.ExceptionTranslationFilter@4f6a63ab, org.springframework.security.web.access.intercept.AuthorizationFilter@2929a793]
+2023-02-19T12:30:22.710-05:00  INFO 4239 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T12:30:22.716-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T12:30:22.718-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.404 seconds (process running for 394.678)
+2023-02-19T12:30:22.718-05:00  INFO 4239 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T12:34:50.786-05:00  INFO 4239 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-19T12:34:50.796-05:00  INFO 4239 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T12:34:50.803-05:00  INFO 4239 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:34:50.805-05:00  INFO 4239 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-19T12:34:50.815-05:00  INFO 4239 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-19T12:34:50.869-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Starting SpringBootUserLoginRegistrationProjectApplication using Java 17.0.5 with PID 4239 (/Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/spring-boot-user-login-registration-project)
+2023-02-19T12:34:50.869-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T12:34:50.931-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T12:34:50.934-05:00  INFO 4239 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T12:34:50.988-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-19T12:34:50.988-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T12:34:50.988-05:00  INFO 4239 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T12:34:50.992-05:00  INFO 4239 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T12:34:50.992-05:00  INFO 4239 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2023-02-19T12:34:51.019-05:00  INFO 4239 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T12:34:51.020-05:00  WARN 4239 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T12:34:51.022-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-19T12:34:51.037-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c1a3b0a
+2023-02-19T12:34:51.037-05:00  INFO 4239 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-19T12:34:51.037-05:00  INFO 4239 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T12:34:51.047-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.User (class must be instantiated by Interceptor)
+2023-02-19T12:34:51.050-05:00  INFO 4239 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.rijal.model.Role (class must be instantiated by Interceptor)
+2023-02-19T12:34:51.077-05:00  INFO 4239 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T12:34:51.077-05:00  INFO 4239 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T12:34:51.120-05:00  WARN 4239 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T12:34:51.201-05:00  INFO 4239 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63dd598, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77ab84ff, org.springframework.security.web.context.SecurityContextHolderFilter@5887e6dd, org.springframework.security.web.header.HeaderWriterFilter@48ee7432, org.springframework.security.web.csrf.CsrfFilter@3edbf03a, org.springframework.security.web.authentication.logout.LogoutFilter@1088b9ef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@532f49d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39bc97d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4caaba94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@249188d3, org.springframework.security.web.access.ExceptionTranslationFilter@4ee21bd, org.springframework.security.web.access.intercept.AuthorizationFilter@54b0eb22]
+2023-02-19T12:34:51.263-05:00  INFO 4239 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T12:34:51.269-05:00  INFO 4239 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+2023-02-19T12:34:51.271-05:00  INFO 4239 --- [restartedMain] tUserLoginRegistrationProjectApplication : Started SpringBootUserLoginRegistrationProjectApplication in 0.412 seconds (process running for 663.23)
+2023-02-19T12:34:51.272-05:00  INFO 4239 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

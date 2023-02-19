@@ -9,5 +9,6 @@ import com.projectsujan.rijal.model.User;
 public interface UserRepository  extends JpaRepository<User, Long> {
 
 	User save(User user);
+	User findByEmail(String email);
 
 }
