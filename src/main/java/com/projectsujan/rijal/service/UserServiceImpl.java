@@ -20,10 +20,10 @@ import com.projectsujan.rijal.web.dto.UserRegistrationDto;
 @Service
 public class UserServiceImpl implements UserService {
 
-	private UserRepository userRepository;
+	
 
-	@Autowired
-	private BCryptPasswordEncoder passwordEncoder;
+	
+	private UserRepository userRepository;
 
 	public UserServiceImpl(UserRepository userRepository) {
 		super();
@@ -32,8 +32,12 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User save(UserRegistrationDto registrationDto) {
+		
+		System.out.println("\n"+registrationDto.getPassword()+"\n");
+		
+		
 		User user = new User(registrationDto.getFirstName(), registrationDto.getLastName(), registrationDto.getEmail(),
-				passwordEncoder.encode(registrationDto.getPassword()), Arrays.asList(new Role("ROLE_USER")));
+				registrationDto.getPassword(), Arrays.asList(new Role("ROLE_USER")));
 
 		return userRepository.save(user);
 	}
